@@ -15,10 +15,14 @@ import { MatToolbarModule,
          MatButtonModule,
          MatTableModule,
          MatDividerModule } from '@angular/material';
+import { HomeComponent } from './home/home.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
